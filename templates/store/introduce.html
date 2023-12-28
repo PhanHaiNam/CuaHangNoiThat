@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{% block metatitle %}Hải Nam{% endblock metatitle %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/intro.css' %}">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Favicon-->
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/home-icon.png' %}">
+</head>
+
+<body >
+    <div class="contain mx-auto mt-5 col-md-10 mt-100">  
+        <img style='height: 550px; width: 1240px' src="{% static 'img/393936353_1017965239544171_8790478131046259566_n.jpg' %}">
+    </div>
+    <div style="background: #183661; align-items: center;margin:auto" class=' container mx-auto mt-1 col-md-10 mt-100'>
+        <div style="color:white" class="title">HaiNamStore</div>
+        <div class=" " style="padding-bottom: 30px;padding-top: 30px;max-width: 650px;text-align: center;align-items: center;margin:auto">
+            <p ><small  class="text-white">Website bán hàng trực tuyến hay website thương mại điện tử được hiểu là trang thông tin
+                điện tử được thiết lập để phục vụ một phần hoặc toàn bộ quy trình của hoạt động mua bán hàng hóa hay cung ứng
+                dịch vụ, từ trưng bày giới thiệu hàng hóa, dịch vụ đến giao kết hợp đồng, cung ứng dịch vụ, thanh toán và dịch
+                vụ sau bán hàng.</p>
+        </div>       
+
+    </div>
+    <div style="background: #183661; " class='container mx-auto mt-5 col-md-10 mt-100'>
+        <div class="header">
+            <div style="color:white" class="title">HaiNamStore</div>
+            <p style="color:white; font-size: 20px;" class=""><small class="">Đội ngũ phát triển giàu kinh nghiệm!</p>
+        </div>
+        <div class="row justify-content-center pb-5">
+            <div  class="card col-md-3 mt-100">
+                <div class="card-content">
+                    <div class="card-body p-0">
+                        <div class="profile"> <img
+                                src="{% static 'img/405924276_375378595098720_8592113815137274428_n.jpg' %}"> </div>
+                        <div style="color:#183661;font-size: 20px;" class="card-title ">Phan Hải Nam<br /> <small>Developer</small>
+                        </div>
+                        <div class="card-subtitle">
+                            <p  style="color:#183661;font-size: 14px;" > <small class="">Mã sinh viên: 142064</small> </p>
+                            <p  style="color:#183661;font-size: 14px;" > <small class="">Lớp: 64MHT2</small> </p>
+                            <p  style="color:#183661;font-size: 14px;" > <small class="">Trường: Đại học Xây Dựng Hà Nội</small> </p>
+                        </div>
+                        --
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
+
